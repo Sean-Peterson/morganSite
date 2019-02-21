@@ -90,10 +90,6 @@ li{
   text-align: left;
 }
 
-/* .cardOne{
-  margin-left: 1vw;
-} */
-
 .footer a{
   margin-left: 1vw;
   color: var(--pink);
@@ -184,3 +180,24 @@ li{
   font-size: .75em;
   margin-left: 10px;
 }
+
+@media only screen
+  and (min-device-width: 360px)
+  and (max-device-width: 812px){
+    .card{
+      display: block;
+      margin: 20px 7vw 0px 7vw;
+      padding: 0px 1vw 0px 10px;
+      width: 85vw;
+      height: 40vh;
+      text-align: center;
+      background: var(--mint);
+      border-bottom: 5px solid rgba(225,225,225,0);
+      border-radius: 10px;
+      box-shadow: 4px 4px 15px 3px rgba(210,225,225,.9);
+      vertical-align: top;
+    }
+    .cardHolder{
+      height: auto;
+    }
+  }
